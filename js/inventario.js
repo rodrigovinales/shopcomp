@@ -1,4 +1,4 @@
-const dollar = 195;
+const dollar = 212;
 
 const productos = [
   {
@@ -92,10 +92,10 @@ const productos = [
   {
     id: 12,
     ean: 3209945431597,
-    imagen: "imagenes/productos/ccast.jpg",
-    categoria: "CONECTIVIDAD",
-    nombre: "CHROMECAST PC HDMI",
-    precio: (20 * dollar).toFixed()
+    imagen: "imagenes/productos/EcoTank-L3250-690x460-4.jpg",
+    categoria: "IMPRESORAS",
+    nombre: "EPSON L3250 EcoTank",
+    precio: (275.70 * dollar).toFixed()
   },
   {
     id: 13,
