@@ -4,16 +4,18 @@ const muestraProductos = (listado) => {
   listadoDeProductos.innerHTML = '';
 
   listado.forEach((productos) => {
-    
+    if (productos.descripcion === undefined){
+      productos.descripcion= "NO ESPECIFICA"
+    }
     const div = document.createElement('div')
     div.className = "productosLista"
     div.classList.add('productos')
     div.innerHTML = `
                   <img src=${productos.imagen} class="card-img-top">
                   <div class="card-body">
-                  <p class="tituloCategoria">CATEGORIA: ${productos.categoria}</p>
-                  <h6 class="tituloNombre">${productos.nombre}</h6>
-                  <p class="tituloPrecio">Precio: $ ${productos.precio} + IVA</p>
+                    <p class="tituloCategoria">CATEGORIA: ${productos.categoria}</p>
+                    <h6 class="tituloNombre">${productos.nombre}</h6>
+                    <p class="tituloPrecio">Precio: $ ${productos.precio} + IVA</p>
                   </div> `
 
     listadoDeProductos.appendChild(div)

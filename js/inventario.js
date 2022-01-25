@@ -79,6 +79,7 @@ const productos = [
     imagen: "imagenes/productos/ssd240gb.jpg",
     categoria: "ALMACENAMIENTO",
     nombre: "DISCO SSD 240GB GIGABYTE",
+    descripcion: "Disco estado solido 2.5 SATA III",
     precio: (45 * dollar).toFixed()
   },
   {

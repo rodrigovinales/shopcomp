@@ -63,7 +63,7 @@ $('#footerJS').append(`
       <div class="container-footer">
         <div class="footer">
           <div class="copyright">
-            © 2021 | <a href="">Rodrigo</a>
+            © 2021 | <a href="mailto:rodrigo11@live.com.ar">Diseño => Rodrigo</a>
           </div>
         </div>
 
