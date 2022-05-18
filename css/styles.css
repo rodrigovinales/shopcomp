@@ -259,6 +259,12 @@ footer {
   .container-body {
     flex-wrap: wrap;
   }
+  .mapFlex {
+    flex-direction: column;
+  }
+  .mapCenter {
+    width: 90%;
+  }
 
   .colum1 {
     max-width: 100%;
@@ -269,6 +275,7 @@ footer {
     margin-top: 40px;
   }
 }
+
 
 @media screen and (max-width: 375px) {
   .mapFlex {

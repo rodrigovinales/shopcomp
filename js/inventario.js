@@ -1,4 +1,4 @@
-const dollar = 212;
+const dollar = 205;
 
 const productos = [
   {
