@@ -13,6 +13,9 @@
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="js/inventario.js"></script>
+
   <link rel="stylesheet" href="css/styles.css">
 
   <title>PRODUCTOS</title>
@@ -34,10 +37,34 @@
             <li class="nav-item">
               <a class="nav-link" href="./index.html">INICIO</a>
             </li>
-            <form class="form-inline my-2 my-lg-0">
+            <!-- <form class="form-inline my-2 my-lg-0">
               <input id="busqueda" class="form-control mr-sm-2 inputCenter" type="search" placeholder="BUSCAR PRODUCTO"
                 aria-label="Search">
+            </form> -->
+
+            <form class="form-inline my-2 my-lg-0">
+              <div class="form-group">
+                <select class="form-control mr-sm-2 formbusqueda" id="busqueda" type="search">
+                  <option>LISTA DE PRODUCTOS</option>
+                  <option>MEMORIA</option>
+                  <option>ALMACENAMIENTO</option>
+                  <option>MICROPROCESADOR</option>
+                  <option>MOTHERBOARD</option>
+                  <option>GABINETE/KIT</option>
+                  <option>PLACA DE VIDEO</option>
+                  <option>MOUSE</option>
+                  <option>TECLADOS</option>
+                  <option>WEBCAM</option>
+                  <option>FUENTES</option>
+                  <option>IMPRESORAS</option>
+                  <option>MONITORES</option>
+                  <option>TONERS</option>
+                  <option>CARTUCHOS</option>
+                </select>
+              </div>
             </form>
+
+
             <li class="nav-item">
               <a class="nav-link" href="./contacto.html">CONTACTO</a>
             </li>
@@ -45,7 +72,7 @@
         </div>
       </nav>
     </header>
-    
+
     <section class="listaProductos" id="contenidoProductos">
     </section>
 
@@ -60,9 +87,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
     integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
     crossorigin="anonymous"></script>
-    <script src="js/inventario.js"></script>
-    <script src="js/productos.js"></script>
-    <script src="js/footer.js"></script>
+  <script src="js/productos.js"></script>
+  <script src="js/footer.js"></script>
 
 </body>
 

@@ -293,3 +293,19 @@ footer {
     max-height: 100px;
   }
 }
+
+.formbusqueda {
+  /* margin-left: 15px; */
+  text-align: center;
+}
+
+.colorboot:hover{
+  background-color: black;
+  color:white;
+}
+.coloredboot{
+  background-color: lightgray;
+  font-size: 14px;
+  text-align: center;
+
+}

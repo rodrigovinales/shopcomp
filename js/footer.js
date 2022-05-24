@@ -26,7 +26,7 @@ $('#footerJS').append(`
               <label>Siguenos en Facebook</label>
             </div>
             <div class="footer__row">
-              <a href="https://wa.me/54911433333" target="blank"> <img src="imagenes/icon/whatsapp_icon.ico"></a>
+              <a href="https://wa.me/5492374631632" target="blank"> <img src="imagenes/icon/whatsapp_icon.ico"></a>
               <label>Whatsapp Suc. Moreno</label>
             </div>
             <div class="footer__row">
@@ -63,7 +63,7 @@ $('#footerJS').append(`
       <div class="container-footer">
         <div class="footer">
           <div class="copyright">
-            © 2021 | <a href="mailto:rodrigo11@live.com.ar">Diseño => Rodrigo</a>
+            © 2022 | <a href="mailto:rodrigo11@live.com.ar">Diseño => Rodrigo</a>
           </div>
         </div>
 
