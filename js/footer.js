@@ -60,6 +60,53 @@ $('#footerJS').append(`
           </div>
         </div>
       </div>
+
+      <!-- FOOTER-BOTTOM Start
+      ================================================== -->
+  
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <ul class="cash-out">
+                <li>
+                  <a>
+                    <img src="imagenes/icon/American-Express.png" alt="">
+                  </a>
+                </li>
+                <li>
+                  <a>
+                    <img src="imagenes/icon/mercadopago.png" alt="">
+                  </a>
+                </li>
+                <li>
+                  <a>
+                    <img src="imagenes/icon/Mastercard.png" alt="">
+                  </a>
+                </li>
+                <li>
+                  <a>
+                    <img src="imagenes/icon/Maestro.png" alt="">
+                  </a>
+                </li>
+                <li>
+                  <a>
+                    <img src="imagenes/icon/Visa.png" alt="">
+                  </a>
+                </li>
+                <li>
+                  <a>
+                    <img src="imagenes/icon/Visaelectron.png" alt="">
+                  </a>
+                </li>
+              </ul>
+            </div> <!-- End Of /.col-md-12 -->
+          </div> <!-- End Of /.row -->
+        </div> <!-- End Of /.container -->
+      </div> <!-- End Of /.footer-bottom -->
+
+
+
       <div class="container-footer">
         <div class="footer">
           <div class="copyright">
