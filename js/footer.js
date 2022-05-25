@@ -113,7 +113,7 @@ $('#footerJS').append(`
                 </li>
                 <li>
                   <a>
-                    <img src="imagenes/icon/Visaelectron.png" alt="">
+                    <img src="imagenes/icon/visaelectron.png" alt="">
                   </a>
                 </li>
               </ul>
