@@ -11,35 +11,33 @@ const muestraProductos = (listado) => {
     div.className = "productosLista"
     div.classList.add('productos')
     div.innerHTML = `
-                      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img src="${productos.imagen1}" class="card-img-top" alt="${productos.imagen1}">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="${productos.imagen2}" class="card-img-top" alt="${productos.imagen2}">
-                          </div>
-                        </div>
-                      </div>
+                      <img src="${productos.imagen}" class="card-img-top" alt="${productos.imagen}">
                       <div class="card-body">
                         <p class="coloredboot">CATEGORIA: ${productos.categoria}</p>
-                        <h6 class="tituloNombre">${productos.nombre}</h6>
+                        <h6 class="tituloNombre">${productos.descripcion}</h6>
+                        <button class="btn btn-lg btn-info" disabled> Precio: $ ${productos.precio} + IVA </button>
                       </div>
-                      <ul class="list-group list-group-flush">
-                       <button class="btn btn-lg btn-success" disabled> Precio: $ ${productos.precio} + IVA </button>
-                      </ul>
                       <div class="card-body">
-                        <div class="dropdown">
-                          <a class="btn btn-success dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Mas info </a>
-                          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                             <a class="dropdown-item colorboot" href="mailto:compras@shopcomputers.com.ar">Enviar E-Mail</a>
-                             <a class="dropdown-item colorboot" href="${productos.link}" target="_blank">Mas sobre el producto</a>
-                          </div>
-                        </div>
+                      <button onclick="paraMostrar(${productos.id})" class="btn btn-sm btn-secondary colorboot"> Info del producto</button>
+                      <hr>
+                        <a class="btn btn-sm btn-dark colorboot" href="${productos.link}" target="_blank">Visitar sitio del producto</a> 
                       </div>
                        `
 
     listadoDeProductos.appendChild(div)
+  })
+}
+
+const paraMostrar = (itemId) => {
+
+  const productoEncontrado = productos.find((prod) => prod.id === itemId)
+
+  Swal.fire({
+    title: `Detalle del producto`,
+    html: `${productoEncontrado.detalle}`,
+    imageUrl: `${productoEncontrado.imagen}`,
+    imageWidth: "150px",
+    imageHeight: "150px",
   })
 }
 
@@ -78,11 +76,12 @@ buscador.addEventListener('input', () => {
       imageUrl: `./imagenes/LOGOshopcomputers.png`,
       imageWidth: "250px",
       imageHeight: "100px",
-      timerProgressBar: true,
       didOpen: () => {
         Swal.showLoading()
       }
     })
   }
+
+
 })
 
