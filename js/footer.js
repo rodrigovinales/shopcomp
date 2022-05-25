@@ -27,34 +27,51 @@ $('#footerJS').append(`
             </div>
             <div class="footer__row">
               <a href="https://wa.me/5492374631632" target="blank"> <img src="imagenes/icon/whatsapp_icon.ico"></a>
-              <label>Whatsapp Suc. Moreno</label>
+              <label>Whatsapp Moreno</label>
             </div>
             <div class="footer__row">
               <a href="https://wa.me/54911433333" target="blank"> <img src="imagenes/icon/whatsapp_icon.ico"></a>
-              <label>Whatsapp Suc. Gral. Rodriguez</label>
+              <label>Whatsapp Gral. Rodriguez</label>
             </div>
 
           </div>
 
           <div class="colum3">
 
-            <h1>Contacto</h1>
+            <h1>Contacto Moreno</h1>
 
             <div class="row2">
               <img src="imagenes/icon/house.png">
-              <label>C. M. Joly 2887 <br> Moreno <br> Buenos Aires</label>
-              <label>Av. San Martin 152<br> Gral. Rodriguez <br> Buenos Aires</label>
+                <label>C. M. Joly 2887 <br> Moreno <br> Buenos Aires</label>
             </div>
 
             <div class="row2">
               <img src="imagenes/icon/smartphone.png"></a>
-              <label>0237-463-1632 <br> MORENO</label>
-              <label>0237-484-2342 <br> GRAL. RODRIGUEZ</label>
+              <label>0237-463-1632</label>
             </div>
 
             <div class="row2">
               <img src="imagenes/icon/contact.png">
               <label><a href="mailto:ventas@shopcomputers.com.ar">Mail a Sucursal MORENO</a></label>
+            </div>
+          </div>
+
+          <div class="colum4">
+
+            <h1>Contacto General Rodriguez</h1>
+
+            <div class="row2">
+              <img src="imagenes/icon/house.png">
+              <label>Av. San Martin 152<br> Gral. Rodriguez <br> Buenos Aires</label>
+            </div>
+
+            <div class="row2">
+              <img src="imagenes/icon/smartphone.png"></a>
+              <label>0237-484-2342</label>
+            </div>
+
+            <div class="row3">
+              <img src="imagenes/icon/contact.png">
               <label><a href="mailto:ventas3@shopcomputers.com.ar">Mail a Sucursal Gral. RODRIGUEZ</a></label>
             </div>
           </div>
@@ -66,8 +83,8 @@ $('#footerJS').append(`
   
       <div class="footer-bottom">
         <div class="container">
-          <div class="row">
-            <div class="col-md-12">
+          <div class="row tarjetasCentradas">
+            <div>
               <ul class="cash-out">
                 <li>
                   <a>
