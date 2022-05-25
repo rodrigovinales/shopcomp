@@ -3,7 +3,7 @@ const dollar = 205;
 const productos = [
   {
     id: 1,
-    ean: 7445216986224,
+    ean: 5216986224,
     imagen: "imagenes/productos/gmrc.jpg",
     categoria: "MOUSE",
     descripcion: "MOUSE GENIUS ROJO USB",
