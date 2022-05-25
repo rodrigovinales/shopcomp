@@ -88,32 +88,32 @@ $('#footerJS').append(`
               <ul class="cash-out">
                 <li>
                   <a>
-                    <img src="imagenes/icon/American-Express.png" alt="">
+                    <img src="imagenes/icon/American-Express.png" alt="American-Express.png">
                   </a>
                 </li>
                 <li>
                   <a>
-                    <img src="imagenes/icon/mercadopago.png" alt="">
+                    <img src="imagenes/icon/mercadopago.png" alt="mercadopago.png">
                   </a>
                 </li>
                 <li>
                   <a>
-                    <img src="imagenes/icon/Mastercard.png" alt="">
+                    <img src="imagenes/icon/Mastercard.png" alt="Mastercard.png">
                   </a>
                 </li>
                 <li>
                   <a>
-                    <img src="imagenes/icon/Maestro.png" alt="">
+                    <img src="imagenes/icon/Maestro.png" alt="Maestro.png">
                   </a>
                 </li>
                 <li>
                   <a>
-                    <img src="imagenes/icon/Visa.png" alt="">
+                    <img src="imagenes/icon/Visa.png" alt="Visa.png">
                   </a>
                 </li>
                 <li>
                   <a>
-                    <img src="imagenes/icon/visaelectron.png" alt="">
+                    <img src="imagenes/icon/visaelectron.png" alt="visaelectron.png">
                   </a>
                 </li>
               </ul>
