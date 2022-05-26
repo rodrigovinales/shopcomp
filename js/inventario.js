@@ -9,6 +9,7 @@ const productos = [
     descripcion: "MOUSE GENIUS ROJO USB",
     link: "https://us.geniusnet.com/product/dx-110/",
     detalle: "Mouse optico conexión USB con resolución de 1000 DPI de 3 botones",
+    stock: "DISPONIBLE",
     precio: (3.70 * dollar).toFixed()
   },
   {
@@ -27,7 +28,9 @@ const productos = [
     ean: 7852143259012,
     imagen: "imagenes/productos/WEBCAM1000x.jpg",
     categoria: "WEBCAM",
+    link: "NO APLICA",
     descripcion: "Webcam Camara Genius Facecam 1000x Hd 720p Con Microfono Pc",
+    stock: "NO DISPONIBLE",
     precio: (18.51 * dollar).toFixed()
   },
   {
@@ -57,10 +60,11 @@ const productos = [
   {
     id: 7,
     ean: 7541236784215,
-    imagen: "imagenes/productos/toner85a.jpg",
-    categoria: "TONER ALTERNATIVO",
-    descripcion: "EVERTEC 85A",
-    precio: (8.1 * dollar).toFixed()
+    imagen: "imagenes/productos/toners/evertec12a.jpg",
+    categoria: "TONERS",
+    descripcion: "TONER ALTERNATIVO 12A",
+    detalle: "Rendimiento : 2000 Copias al 5% de cobertura de la hoja. Compatibilidad : LaserJet 1010/1012/1015/1018/1020/1022/3015/3020/3030/3050/3052/3055 M1005/1319",
+    precio: (5.75 * dollar).toFixed()
   },
   {
     id: 8,
@@ -166,5 +170,15 @@ const productos = [
     categoria: "NOTEBOOK",
     descripcion: "NOTEBOOK LENOVO",
     precio: (71.70 * dollar).toFixed()
-  }
+  },
+  {
+    id: 21,
+    ean: 521698633224,
+    imagen: "imagenes/productos/toners/TONER111S.jpg",
+    categoria: "TONERS",
+    descripcion: "TONER ALTERNATIVO SAMSUNG 111S",
+    detalle: "COMPATIBLE CON SAMSUNG M2020, M2021, M2022, M2070, M2071, M2071FH, -RENDIMIENTO: 1000 PÁGINAS (cada página está contemplada al 5% de impresión, que equivale a una hoja de texto completa).",
+    stock: "NO DISPONIBLE",
+    precio: (8.28 * dollar).toFixed()
+  },
 ]

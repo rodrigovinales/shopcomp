@@ -4,9 +4,9 @@ const muestraProductos = (listado) => {
   listadoDeProductos.innerHTML = '';
 
   listado.forEach((productos) => {
-    if (productos.descripcion === undefined) {
-      productos.descripcion = "NO ESPECIFICA"
-    }
+    // if (productos.stock === DISPONIBLE) {
+    //   productos.stock = "HAY STOCK"
+    // }
     const div = document.createElement('div')
     div.className = "productosLista"
     div.classList.add('productos')
@@ -18,9 +18,8 @@ const muestraProductos = (listado) => {
                         <button class="btn btn-lg btn-info" disabled> Precio: $ ${productos.precio} + IVA </button>
                       </div>
                       <div class="card-body">
-                      <button onclick="paraMostrar(${productos.id})" class="btn btn-sm btn-secondary colorboot"> Info del producto</button>
-                      <hr>
-                        <a class="btn btn-sm btn-dark colorboot" href="${productos.link}" target="_blank">Visitar sitio del producto</a> 
+                        <button onclick="paraMostrar(${productos.id})" class="btn btn-sm btn-secondary colorboot"> Info del producto</button>
+                        <hr>
                       </div>
                        `
 
@@ -38,6 +37,7 @@ const paraMostrar = (itemId) => {
     imageUrl: `${productoEncontrado.imagen}`,
     imageWidth: "150px",
     imageHeight: "150px",
+    footer: ` STOCK ${productoEncontrado.stock}`
   })
 }
 
